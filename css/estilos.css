@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap');
+
+body{
+	font-family: 'Open Sans', sans-serif;
+}
+.bg-black{
+	background-color: #000;
+}
+.bg-apple{
+	background-color: #fafafa;
+}
+#siteHeader{
+
+}
+#siteHeader .miLogo{
+	background: url("../assets/apple.svg") no-repeat;
+	width: 16px;
+	height: 40px;
+	display: block;
+}
+#siteBanner{
+	background-image: url("../assets/curved1.jpg");
+	background-size: cover;
+	background-position: 50%;
+	min-height: 400px;
+	height: 50vh;
+	position: relative;
+}
+#siteBanner span{
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+	background-image: linear-gradient(310deg, #7928ca, #ff0080);
+	background-position: 50%;
+	opacity: .8;
+}
+#siteBanner h3, #siteImacs h3, #siteIphone h3{
+	font-size: 3rem;
+	line-height: 1.25em;
+	font-weight: 700;
+}
+#siteImacs a{
+	color: #2c5f96;
+}
+#siteImacs p{
+	margin-bottom: .5em;
+}
